@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/home.vue'
-import About from '@/components/about.vue'
 import NavigationBar from '@/components/navigation-bar.vue'
+import Home from '@/components/home.vue'
+import Collection from '@/components/collection.vue'
+import Shoes from '@/components/shoes.vue'
+import RacingBoots from '@/components/racing-boots.vue'
+import Contact from '@/components/contact.vue'
 
 Vue.use(Router)
 
@@ -20,9 +23,24 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
-      name: 'About',
-      component: About
+      path: '/collection',
+      name: 'Collection',
+      component: Collection
+    },
+    {
+      path: '/shoes',
+      name: 'Shoes',
+      component: Shoes
+    },
+    {
+      path: '/racing-boots',
+      name: 'RacingBoots',
+      component: RacingBoots
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
     },
   ]
 })
