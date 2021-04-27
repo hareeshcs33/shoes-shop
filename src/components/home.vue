@@ -16,6 +16,13 @@
             <div class="text-block">
             <h3 class="running-shoe-text">New Running Shoes</h3>
             <h3 class="like-text">Men's Like Plex</h3>
+            <p class="p-text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore 
+              magna aliqua.</p>
+            <div class="cta-block">
+              <button class="buy-cta red">Buy Now</button>
+              <button class="buy-cta">See More</button>
+            </div>
           </div>
           <div class="img-block">
             <img  src="../assets/running-shoes.png" alt="Los Angeles">
@@ -27,6 +34,13 @@
             <div class="text-block">
             <h3 class="running-shoe-text">New Running Shoes</h3>
             <h3 class="like-text">Men's Like Plex</h3>
+            <p class="p-text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore 
+              magna aliqua.</p>
+            <div class="cta-block">
+              <button class="buy-cta red">Buy Now</button>
+              <button class="buy-cta">See More</button>
+            </div>
           </div>
           <div class="img-block">
             <img  src="../assets/running-shoes.png" alt="Los Angeles">
@@ -38,6 +52,13 @@
             <div class="text-block">
             <h3 class="running-shoe-text">New Running Shoes</h3>
             <h3 class="like-text">Men's Like Plex</h3>
+            <p class="p-text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore 
+              magna aliqua.</p>
+            <div class="cta-block">
+              <button class="buy-cta red">Buy Now</button>
+              <button class="buy-cta">See More</button>
+            </div>
           </div>
           <div class="img-block">
             <img  src="../assets/running-shoes.png" alt="Los Angeles">
@@ -72,7 +93,7 @@
 }
 .carousel-content .text-block {
   width: 50%;
-  text-align: center;
+  margin-left: 15%;
 }
 .carousel-content .img-block {
   width: 50%;
@@ -95,5 +116,26 @@
 .like-text {
   color: #fff;
   font-size: 45px;
+}
+.cta-block {
+  display: flex;
+  align-items: center;
+}
+.cta-block .buy-cta {
+  background-color: #FFF;
+  color: #db5660;
+  font-size: 22px;
+  padding: 8px 25px;
+  border: 1px solid #fff;
+  margin: 10px;
+}
+.cta-block .buy-cta.red {
+  background-color: #db5660;
+  border: 1px solid #db5660;
+  color: #fff;
+}
+.p-text {
+  color: #fff;
+  font-size: 18px;
 }
 </style>

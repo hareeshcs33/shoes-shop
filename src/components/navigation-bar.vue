@@ -18,7 +18,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 .nav-block a {
     color: #fff;
