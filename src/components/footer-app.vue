@@ -30,6 +30,7 @@
 .footer-block {
     background-color: #272222;
     color: #fff;
+    margin-top: 100px;
 }
 .rights-reserved {
     background-color: #ff4e5b;

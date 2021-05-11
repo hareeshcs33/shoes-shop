@@ -43,7 +43,7 @@
             </div>
           </div>
           <div class="img-block">
-            <img  src="../assets/running-shoes.png" alt="Los Angeles">
+            <img  src="../assets/shoes-img7.png" alt="Los Angeles">
           </div>
         </div>
       </div>

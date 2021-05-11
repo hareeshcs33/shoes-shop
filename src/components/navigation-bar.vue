@@ -22,10 +22,10 @@
 }
 .nav-block a {
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     display: inline-block;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 15px 10px;
 }
 .nav-block a:hover {
     color: #db5660;

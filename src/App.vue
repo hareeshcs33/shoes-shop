@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <navigation-bar></navigation-bar>
-    <br>
-    <br>
-    <br>
     <router-view/>
     <footer-app></footer-app>
   </div>
@@ -31,5 +28,6 @@ export default {
 }
 body {
   margin: 0;
+  margin-top: 60px;
 }
 </style>
